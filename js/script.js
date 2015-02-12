@@ -9,6 +9,7 @@
 		init: function() {
 			this.clickMe();
 			this.changeBackground();
+			this.fontcolor();
 		},
 		
 		test: function() {
@@ -26,8 +27,8 @@
 			$('body').css({
 				'background': 'blue'
 			});
-		}
-	}
+		},
+		
 	
 	$( document ).ready( function() {
 		Bootstrap.init();
