@@ -32,7 +32,7 @@
 		},
 		changeBackground: function() {
 			$('body').css({
-				'background': 'grey'
+				'background': 'pink'
 			});
 		}
 	}
